@@ -1,0 +1,12 @@
+body {
+    background-color: #24292d;
+}
+
+.navbar {
+    position: sticky;
+    top: 10px;
+}
+
+.navbar-brand {
+    width: 50px;
+}
