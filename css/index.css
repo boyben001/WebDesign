@@ -1,5 +1,6 @@
 body {
     background-color: #24292d;
+    font-family: "源泉圓體", cursive;
 }
 
 .navbar {
@@ -8,5 +9,26 @@ body {
 }
 
 .navbar-brand {
-    width: 50px;
+    width: 70px;
+}
+
+.nav-item {
+    font-size: 24px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.nav-item .dropdown-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Index-content .row .col-4 {
+    height: 500px;
+}
+
+.Index-content .row .col-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
