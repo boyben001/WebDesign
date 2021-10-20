@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+    font-family: "源泉圓體", cursive;
+    color: #373738;
+}
+
+.part_pic {
+    display: block;
+    margin: 0 auto;
+}
+
+.part_pic:hover {
+    filter: drop-shadow(5px 5px 5px #373738);
+}
