@@ -4,6 +4,36 @@ body {
     color: #373738;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar-brand {
+    width: 70px;
+}
+
+.nav-item {
+    font-size: 24px;
+    margin-right: 70px;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+}
+
+.nav-item .dropdown-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-item .dropdown-item span {
+    float: right;
+}
+
 .part_pic {
     display: block;
     margin: 0 auto;
