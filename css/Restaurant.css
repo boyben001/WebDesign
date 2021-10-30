@@ -33,3 +33,16 @@ body {
 .nav-item .dropdown-item span {
     float: right;
 }
+
+h2 {
+    text-align: center;
+    background-color: #183757;
+    color: aliceblue;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+h2:hover {
+    background-color: aliceblue;
+    color: #183757;
+}
