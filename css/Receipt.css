@@ -1,7 +1,7 @@
 body {
     background-color: azure;
     font-family: "源泉圓體", cursive;
-    color: #373738;
+    color: whitesmoke;
 }
 
 .navbar {
@@ -32,4 +32,83 @@ body {
 
 .nav-item .dropdown-item span {
     float: right;
+}
+
+.wrap {
+    background-color: #24292d;
+    padding: 10px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.title {
+    background-color: orange;
+    padding: 10px;
+    color: #203041;
+    font-size: 28px;
+    margin: 20px auto;
+    position: relative;
+    width: 250px;
+    text-align: center;
+}
+
+.title:before,
+.title:after {
+    border-color: orange;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+
+.title:before {
+    border-left-width: 2px;
+    border-top-width: 2px;
+    left: -5px;
+    top: -5px;
+}
+
+.title:after {
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    bottom: -5px;
+    right: -5px;
+}
+
+.title:hover:before,
+.title:hover:after {
+    height: 100%;
+    width: 100%;
+
+}
+
+.content {
+    color: orange;
+    font-style: italic;
+}
+
+h4 {
+    width: 70vw;
+    margin: 20px auto;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    width: 50vw;
+    margin: 10px auto;
+}
+
+iframe {
+    display: block;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
