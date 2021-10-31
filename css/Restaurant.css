@@ -39,10 +39,38 @@ h2 {
     background-color: #183757;
     color: aliceblue;
     padding: 20px;
-    transition: all 0.3s;
+    margin: 20px 0;
+    transition: all 1s;
 }
 
 h2:hover {
     background-color: aliceblue;
     color: #183757;
+}
+
+.content h4 {
+    width: 50vw;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.content h4:hover {
+    background-color: rgb(60, 60, 116);
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.card {
+    width: 60vw;
+    margin: 0 auto;
+    box-shadow: -5px -5px 5px #183757,
+        5px 5px 5px #183757;
+}
+
+.card p {
+    font-weight: bold;
+    font-style: oblique;
 }

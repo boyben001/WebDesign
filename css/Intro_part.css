@@ -10,7 +10,7 @@ body {
     left: 0;
     z-index: 1000;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: azure;
 }
 
 .navbar-brand {
@@ -36,9 +36,37 @@ body {
 
 .part_pic {
     display: block;
+    width: 60vw;
     margin: 0 auto;
 }
 
 .part_pic:hover {
     filter: drop-shadow(5px 5px 5px #373738);
+}
+
+.wrap {
+    background-color: #373738;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.content {
+    border-bottom: 2px solid #95a2af;
+}
+
+.content h3 {
+    width: 70vw;
+    margin-left: 7vw;
+    padding: 20px;
+}
+
+
+.content p {
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #95a2af,
+        -5px -5px 5px #95a2af;
 }
