@@ -82,26 +82,31 @@ a {
     width: 100%;
 }
 
+.carousel {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+
+
 .welcome {
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
-    color: rgb(0, 38, 255);
+    color: darkorange;
 }
 
 .contact {
     width: 90vw;
     margin: 30px auto;
-
 }
 
 .contact h3 {
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-radius: 20px;
     padding: 10px;
-    margin-left: 50px;
-
+    margin: 0 auto;
 }
 
 .contact h3:hover {
@@ -110,7 +115,7 @@ a {
 }
 
 .contact h4 {
-    width: 70vw;
+    width: 50vw;
     margin: 0 auto;
     text-align: center;
     padding: 20px 0;
@@ -120,6 +125,7 @@ a {
 }
 
 .contact h4 sub:hover {
+    color: darkorange;
     font-size: large;
 }
 
