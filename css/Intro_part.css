@@ -67,6 +67,6 @@ body {
     margin-bottom: 15px;
     text-align: left;
     padding: 5px;
-    box-shadow: 5px 5px 5px #95a2af,
-        -5px -5px 5px #95a2af;
+    box-shadow: 0 5px 10px aliceblue,
+        0 -5px 10px aliceblue;
 }

@@ -41,6 +41,7 @@ h2 {
     padding: 20px;
     margin: 20px 0;
     transition: all 1s;
+
 }
 
 h2:hover {
@@ -53,21 +54,21 @@ h2:hover {
     text-align: center;
     margin: 10px auto;
     padding: 10px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: all 0.5s;
+    box-shadow: 0 5px 20px #373738;
 }
 
 .content h4:hover {
-    background-color: rgb(60, 60, 116);
-    color: aliceblue;
     text-decoration: underline;
+    box-shadow: 0 5px 20px inset#373738;
 }
 
 .card {
     width: 60vw;
     margin: 0 auto;
-    box-shadow: -5px -5px 5px #183757,
-        5px 5px 5px #183757;
+    box-shadow: 0 5px 20px #373738;
+    opacity: 0.7;
 }
 
 .card p {
